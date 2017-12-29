@@ -1,0 +1,22 @@
+You have a table COLORS
+
+Name             Type
+ ---------------- ------------
+ NAME             VARCHAR2(30)
+ CATEGORY         VARCHAR2(10) 
+
+NAME                           CATEGORY
+------------------------------ --------
+yellow                         1
+red                            1
+blue                           1
+yellow                         2
+blue                           2
+
+>insert all
+into colors(name, category) values('yellow', 1)
+into colors(name, category) values('red', 1)
+into colors(name, category) values('blue', 1)
+into colors(name, category) values('yellow', 2)
+into colors(name, category) values('blue', 2)
+select * from dual;
