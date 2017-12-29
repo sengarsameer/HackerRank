@@ -1,0 +1,11 @@
+1st Method :- 
+INSERT INTO MyTable ( Column1, Column2 ) VALUES
+( Value1, Value2 ), ( Value1, Value2 )
+
+2nd Method:-
+INSERT INTO table1 (First, Last)
+VALUES
+    ('Fareed', 'Sam'),
+    ('Johny', 'Sam'),
+    ('Michali', 'Sam'),
+    ('Ronij', 'Sam');
