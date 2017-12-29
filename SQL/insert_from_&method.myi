@@ -1,0 +1,13 @@
+Following Records in DEPT name Table.
+
+Deptno          Dname         Location
+1. 10         Accounting      New York
+2. 20         Research        Dallas
+3. 30         Sales           Chicago
+4. 40         Operation       Boston
+
+
+> insert into DEPT vaules (&Deptno, '&Dname', '&Location');
+Enter value for Deptno: 10
+Enter Value for Dname: Accounting
+Enter Value for Location: New York
